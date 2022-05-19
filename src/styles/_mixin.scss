@@ -1,0 +1,5 @@
+@mixin media ($sreen-width, $loops-count, $card-width) {
+  @media (min-width: $sreen-width) {
+    grid-template-columns: repeat($loops-count, $card-width);
+  }
+}
